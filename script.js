@@ -103,13 +103,13 @@ const PROJECTS = {
     tech: ["React", "Node.js", "Express", "MongoDB", "Vercel"], link: "#"
   },
   resume: {
-    title: "AI Resume Builder", cat: "Agentic AI", img: "images/resume-builder.svg",
+    title: "AI Resume Builder", cat: "Agentic AI", img: "./images/agentic ai .png",
     desc: "An intelligent 4-agent resume generation system built with LangGraph and LangChain that automatically tailors ATS-optimized resumes to a specific job description using Groq Llama 3.3.",
     features: ["Agent 1 — parses the job description", "Agent 2 — extracts and maps candidate profile", "Agent 3 — drafts tailored resume sections", "Agent 4 — ATS scoring and critique loop", "Streamlit interface with one-click export"],
     tech: ["LangGraph", "LangChain", "Groq LLM", "Streamlit", "Python"], link: "#"
   },
   spam: {
-    title: "Multimodal Spam Guard", cat: "AI + OCR", img: "images/spam-guard.svg",
+    title: "Multimodal Spam Guard", cat: "AI + OCR", img: "./images/spamguard.png",
     desc: "A Flask-based intelligent spam detection platform capable of identifying spam from both text and images through OCR-enhanced multimodal classification.",
     features: ["OCR text extraction from uploaded images", "NLP classification pipeline", "Image analysis for embedded spam", "Clean user-facing dashboard"],
     tech: ["Flask", "Python", "OCR", "Scikit-learn"], link: "#"
