@@ -76,7 +76,7 @@ p.lead{color:var(--mut);max-width:70ch;font-size:1.05rem}
   display:flex;
   align-items:center;
   margin-top:-80px;     
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 .hero-brand img{
