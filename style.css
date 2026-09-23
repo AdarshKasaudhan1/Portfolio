@@ -64,6 +64,19 @@ p.lead{color:var(--mut);max-width:70ch;font-size:1.05rem}
 .grad{background:linear-gradient(100deg,var(--p),var(--s),var(--a));-webkit-background-clip:text;background-clip:text;color:transparent}
 
 /* ===== Hero ===== */
+/* Alliance University */
+.hero-brand{
+  display:flex;
+  align-items:center;
+  margin-top:-60px;     
+    margin-bottom:5px;
+}
+
+.hero-brand img{
+  width: 150px;
+  height: 150px;
+  object-fit:contain;
+}
 #hero{padding-top:70px;overflow:hidden}
 .orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.5;pointer-events:none;animation:float 15s ease-in-out infinite;z-index:0}
 .o1{width:440px;height:440px;background:var(--p);top:-130px;left:-110px}
